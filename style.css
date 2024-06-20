@@ -1,0 +1,131 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(222, 245, 247);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+}
+
+.container {
+    height: 30rem;
+    width: 18rem;
+    background-color: white;
+    border-radius: 5pt;
+}
+
+.hero {
+    height: 10rem;
+    width: 18rem;
+    border-top-left-radius: 5pt;
+    border-top-right-radius: 5pt;
+}
+
+.heading {
+    text-align: center;
+    color:hsl(223, 47%, 23%);
+    font-weight: bolder;
+    font-size: 18px;
+    border: 0;
+    
+}
+
+.content {
+    font-size: 9pt;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.863);
+    width: 14rem;
+    padding-left: 1.7rem;
+    border: 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 15rem;
+    height: 4rem;
+    background-color: hsla(224, 23%, 55%, 0.048);
+    margin-left: 1.4rem;
+    border-radius: 5pt;
+}
+
+.musicicon {
+    border: 0;
+    max-width: 2rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    margin-left: 0.8rem;
+}
+
+.annual {
+    font-size: small;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0.5rem;
+}
+
+.year {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 1rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 2.4rem;
+}
+
+.change {
+    font-size: 10px;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
+}
+
+
+#btn {
+    margin-left: 1.5rem;
+    text-align: center;
+    border-radius: 5pt;
+    font-size: 9pt;
+    height: 2rem;
+    width: 15rem;
+    background-color: rgba(32, 9, 241, 0.733);
+}
+
+.proceed {
+    padding-top: 4pt;
+    font-weight: bold;
+    color: white;
+}
+
+.cancel {
+    text-align: center;
+    font-size: 9pt;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.footer {
+    font-size: x-small;
+    text-align: center;
+    margin: 0;
+}
+
+.footer2 {
+    font-size: x-small;
+    text-align: center;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
